@@ -35,7 +35,7 @@ let notas = document.getElementById("formulario")
 function NM(){
     let notaMayor = -1;
     errorHTML=document.getElementById("error")
-    if(Number(notas[0].value) && Number(notas[1].value) && Number(notas[2].value) && Number(notas[0].value)<=10 && Number(notas[0].value)>=0 && Number(notas[1].value)<=10 && Number(notas[1].value)>=0 && Number(notas[2].value)<=10 && Number(notas[2].value)>=0){
+    if(notas[0].value && notas[1].value && notas[2].value && notas[0].value<=10 && notas[0].value>=0 && notas[1].value<=10 && notas[1].value>=0 && notas[2].value<=10 && notas[2].value>=0){
         for (let i = 0; i < notas.length-2; i++) {
             if (notaMayor<Number(notas[i].value)) {
                 notaMayor=Number(notas[i].value)
@@ -54,7 +54,8 @@ function NM(){
 function pr(){
     let promedio=0;
     errorHTML=document.getElementById("error")
-    if(Number(notas[0].value) && Number(notas[1].value) && Number(notas[2].value) && Number(notas[0].value)<=10 && Number(notas[0].value)>=0 && Number(notas[1].value)<=10 && Number(notas[1].value)>=0 && Number(notas[2].value)<=10 && Number(notas[2].value)>=0){        promedio = Number(notas[0].value) + Number(notas[1].value) + Number(notas[2].value)
+    if(notas[0].value && notas[1].value && notas[2].value && notas[0].value<=10 && notas[0].value>=0 && notas[1].value<=10 && notas[1].value>=0 && notas[2].value<=10 && notas[2].value>=0){
+        promedio = Number(notas[0].value) + Number(notas[1].value) + Number(notas[2].value)
         promedio = promedio/3
         promedioHTML=document.getElementById("promedio")
 
