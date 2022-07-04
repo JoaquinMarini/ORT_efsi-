@@ -1,0 +1,14 @@
+body{
+    margin-top: 5%;
+    background-color: powderblue;
+    font-family: 'Pacifico', cursive;
+}
+
+.btn-group{
+    inline-size: 100%;
+}
+
+.card{
+    padding:2%;
+    background-color: plum;
+}
