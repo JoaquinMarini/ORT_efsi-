@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.Card-Header{
+  color: #039be5;
+  background-color: #FFF;
+  font-size: 19px;
+}
+.Card-Image{
+  border-radius: 0;
+}
+.Card{
+  border-radius: 0;
+  box-shadow: 0 2px 5px 0 #888;
+}
+.banner{
+  width: 100%;
+  box-shadow: 0 2px 5px 0 #888;
+}
+
+.navbar{
+  box-shadow: 0 2px 5px 0 #888;
+  background-color: #FFF;
+}
+
+.nav-item{
+  color: #888;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.nav-item:hover {
+  background: #DDD;
+}
